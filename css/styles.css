@@ -1,5 +1,6 @@
 html {
     min-height: 100%;
+    box-sizing: border-box;
 }
 
 /* body {
@@ -194,16 +195,52 @@ table {
     font-family: 'Courier Prime', monospace;
 }
 
+.profile {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.profile-pic {
+    border-radius: 50%;
+    height: 15rem;
+}
 
-/* .company {
-    font-family: 'Courier Prime', monospace;
-} */
+.social-container {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    font-size: 12px;
+    height: auto;
+}
 
+.social-area {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.skills.panel {
+    padding: 10px;
+}
 
+/* Container for skill bars */
+.skill-container {
+  width: 100%; /* Full width */
+  background-color: lightgray /* Grey background */
+}
 
+.skills-bar {
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: orange; /* White text color */
+}
 
+.html {width: 60%; background-color: orange}
+.js {width: 20%; background-color: orange}
+.python {width: 80%; background-color: orange}
+.sql {width: 80%; background-color: orange}
 
 
 
