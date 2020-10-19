@@ -18,8 +18,29 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+h3 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-bottom: 4px;
+}
+
 p {
     font-family: 'Courier Prime', monospace;
+}
+
+p.indent {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-box {
@@ -76,6 +97,113 @@ p {
 .text-accent {
     color: orange;
 }
+
+
+/* About Me CSS */
+
+.container-aboutme {
+    display: grid;
+    width: 1000px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "about profile"
+    "about skills"
+    "about skills"
+    "about skills"
+    ;
+    gap: 10px 10px;
+}
+
+.panel {
+    background-color: whitesmoke;
+    font-family: 'Courier Prime', monospace;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 1px #888888;
+}
+
+.nav {
+    grid-area: header;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.about-me {
+    grid-area: about;
+}
+
+.profile {
+    grid-area: profile;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.fa-home{
+    font-size: 26px;
+}
+
+.fa-home:hover {
+    color: orange;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+ul li::before {
+content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+color: orange; /* Change the color */
+font-weight: bold; /* If you want it to be bold */
+display: inline-block; /* Needed to add space between the bullet and the text */
+width: 1em; /* Also needed for space (tweak if needed) */
+margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.education-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+img.uni-logo {
+    width: 10%;
+    height: 3%;
+    padding-left: 35px;
+}
+
+.education-date {
+    font-size: 12px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-size: 15px;
+    border-spacing: 12px;
+    font-family: 'Courier Prime', monospace;
+}
+
+
+
+/* .company {
+    font-family: 'Courier Prime', monospace;
+} */
+
+
+
+
+
 
 
 
