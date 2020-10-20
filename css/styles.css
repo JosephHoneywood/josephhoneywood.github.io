@@ -242,12 +242,76 @@ table {
 .python {width: 80%; background-color: orange}
 .sql {width: 80%; background-color: orange}
 
+/* Studies CSS */
 
+.studies-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.main-area-container {
+    display: flex;
+    margin-top: 0.5rem;
+
+}
+
+.project-area.panel {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 4px;
+    padding-right: 15px;
+}
+
+.project-card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card-title h3 {
+    text-decoration: none;
+}
+
+.project-card-title h3.accent{
+    color: orange;
+}
+
+.project-card-tech-tags {
+    margin-left: 20px;
+    font-size: 10px;
+    font-style: italic;
+    color: slategray;
+    margin-bottom: 10px;
+}
+
+.project-card-text {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.project-card-repo-link {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+span.accent {
+    color: slategrey;
+}
 
 /* Cloud code-pen credited to https://codepen.io/sheryllun */
 
-body {
+body.index-body {
     overflow: hidden;
   }
   
