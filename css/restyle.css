@@ -89,7 +89,17 @@ li:hover {
     justify-content: center;
 }
 
-/* Timeline */
+/* 
+
+
+
+
+Timeline from Codepen
+
+
+
+
+*/
 
 
 .timeline {
@@ -365,4 +375,40 @@ li:hover {
       margin: 1em 4em 0 4em;
   }
   
+  }
+
+/* 
+
+
+
+Style Scrollbar
+
+
+
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background-color: lightgrey;
+    border-radius: 8px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    background-color: #555;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 8px;
   }
